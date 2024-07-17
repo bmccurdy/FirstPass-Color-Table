@@ -161,51 +161,51 @@ function getTailwindColor(className) {
 
 // Main section data
 const mainColorData = [
-    { element: "Headers", state: "Normal", lightMode: "#4e7ece", darkMode: "#3a5e9a", lightTailwind: "bg-blue-600", darkTailwind: "bg-blue-800" },
-    { element: "Protocol links", state: "Normal", lightMode: "#337ab7", darkMode: "#2c6798", lightTailwind: "bg-blue-700", darkTailwind: "bg-blue-900" },
-    { element: "Incidents text color", state: "Normal", lightMode: "#333", darkMode: "#e0e0e0", lightTailwind: "bg-gray-800", darkTailwind: "bg-gray-300" },
-    { element: "Selected page", state: "Background", lightMode: "#337ab7", darkMode: "#2c6798", lightTailwind: "bg-blue-700", darkTailwind: "bg-blue-900" },
+    { element: "Headers", state: "Normal", lightMode: "#4E7ECE", darkMode: "#3A5E9A", lightTailwind: "bg-blue-600", darkTailwind: "bg-blue-800" },
+    { element: "Protocol links", state: "Normal", lightMode: "#337AB7", darkMode: "#2C6798", lightTailwind: "bg-blue-700", darkTailwind: "bg-blue-900" },
+    { element: "Incidents text color", state: "Normal", lightMode: "#333333", darkMode: "#E0E0E0", lightTailwind: "bg-gray-800", darkTailwind: "bg-gray-300" },
+    { element: "Selected page", state: "Background", lightMode: "#337AB7", darkMode: "#2C6798", lightTailwind: "bg-blue-700", darkTailwind: "bg-blue-900" },
     { element: "Selected page", state: "Text", lightMode: "#FFFFFF", darkMode: "#FFFFFF", lightTailwind: "bg-white", darkTailwind: "bg-white" },
-    { element: "Export button", state: "Background", lightMode: "#8bc34a", darkMode: "#689f38", lightTailwind: "bg-green-500", darkTailwind: "bg-green-700" },
+    { element: "Export button", state: "Background", lightMode: "#8BC34A", darkMode: "#689F38", lightTailwind: "bg-green-500", darkTailwind: "bg-green-700" },
     { element: "Export button", state: "Text", lightMode: "#FFFFFF", darkMode: "#FFFFFF", lightTailwind: "bg-white", darkTailwind: "bg-white" },
     { element: "Open call pop-up", state: "Background", lightMode: "#FFFFFF", darkMode: "#424242", lightTailwind: "bg-white", darkTailwind: "bg-gray-800" },
-    { element: "Open call pop-up", state: "Text", lightMode: "#337ab7", darkMode: "#64b5f6", lightTailwind: "bg-blue-700", darkTailwind: "bg-blue-400" },
+    { element: "Open call pop-up", state: "Text", lightMode: "#337AB7", darkMode: "#64B5F6", lightTailwind: "bg-blue-700", darkTailwind: "bg-blue-400" },
 ];
 
 // Side menu section data
 const sideMenuColorData = [
-    { element: "Active queue", state: "Normal", lightMode: "#ff4081", darkMode: "#c51162", lightTailwind: "bg-pink-500", darkTailwind: "bg-pink-700" },
-    { element: "Other queues", state: "Normal", lightMode: "#337ab7", darkMode: "#1c4f7c", lightTailwind: "bg-blue-700", darkTailwind: "bg-blue-900" },
-    { element: "Installation text color", state: "Normal", lightMode: "#424242", darkMode: "#e0e0e0", lightTailwind: "bg-gray-800", darkTailwind: "bg-gray-300" },
-    { element: "Queue titles", state: "Normal", lightMode: "#62686f", darkMode: "#a0a4a8", lightTailwind: "bg-gray-600", darkTailwind: "bg-gray-400" },
+    { element: "Active queue", state: "Normal", lightMode: "#FF4081", darkMode: "#C51162", lightTailwind: "bg-pink-500", darkTailwind: "bg-pink-700" },
+    { element: "Other queues", state: "Normal", lightMode: "#337AB7", darkMode: "#1C4F7C", lightTailwind: "bg-blue-700", darkTailwind: "bg-blue-900" },
+    { element: "Installation text color", state: "Normal", lightMode: "#424242", darkMode: "#E0E0E0", lightTailwind: "bg-gray-800", darkTailwind: "bg-gray-300" },
+    { element: "Queue titles", state: "Normal", lightMode: "#62686F", darkMode: "#A0A4A8", lightTailwind: "bg-gray-600", darkTailwind: "bg-gray-400" },
     { element: "Queue count", state: "Normal", lightMode: "#FFFFFF", darkMode: "#121212", lightTailwind: "bg-white", darkTailwind: "bg-gray-900" },
 ];
 
 // Options Modal section data
 const optionsModalColorData = [
-    { element: "Qi Macros", state: "Button Background", lightMode: "#8bc34a", darkMode: "#558b2f", lightTailwind: "bg-green-500", darkTailwind: "bg-green-700" },
+    { element: "Qi Macros", state: "Button Background", lightMode: "#8BC34A", darkMode: "#558B2F", lightTailwind: "bg-green-500", darkTailwind: "bg-green-700" },
     { element: "Qi Macros", state: "Text", lightMode: "#FFFFFF", darkMode: "#121212", lightTailwind: "bg-white", darkTailwind: "bg-gray-900" },
-    { element: "Load button", state: "Background", lightMode: "#8bc34a", darkMode: "#558b2f", lightTailwind: "bg-green-500", darkTailwind: "bg-green-700" },
+    { element: "Load button", state: "Background", lightMode: "#8BC34A", darkMode: "#558B2F", lightTailwind: "bg-green-500", darkTailwind: "bg-green-700" },
     { element: "Load button", state: "Text", lightMode: "#FFFFFF", darkMode: "#121212", lightTailwind: "bg-white", darkTailwind: "bg-gray-900" },
 ];
 
 // Incident opened section data
 const incidentOpenedColorData = [
-    { element: "Save, load, edit protocols button", state: "Background", lightMode: "#337ab7", darkMode: "#1c4f7c", lightTailwind: "bg-blue-700", darkTailwind: "bg-blue-900" },
-    { element: "Save, load, edit protocols button", state: "Border", lightMode: "#2e6da4", darkMode: "#1a5081", lightTailwind: "bg-blue-800", darkTailwind: "bg-blue-950" },
-    { element: "Save, load, edit protocols button", state: "Text", lightMode: "#FFFFFF", darkMode: "#e0e0e0", lightTailwind: "bg-white", darkTailwind: "bg-gray-300" },
+    { element: "Save, load, edit protocols button", state: "Background", lightMode: "#337AB7", darkMode: "#1C4F7C", lightTailwind: "bg-blue-700", darkTailwind: "bg-blue-900" },
+    { element: "Save, load, edit protocols button", state: "Border", lightMode: "#2E6DA4", darkMode: "#1A5081", lightTailwind: "bg-blue-800", darkTailwind: "bg-blue-950" },
+    { element: "Save, load, edit protocols button", state: "Text", lightMode: "#FFFFFF", darkMode: "#E0E0E0", lightTailwind: "bg-white", darkTailwind: "bg-gray-300" },
     { element: "Test headers", state: "Background", lightMode: "#226A98", darkMode: "#154964", lightTailwind: "bg-blue-800", darkTailwind: "bg-blue-950" },
-    { element: "Test headers", state: "Text", lightMode: "#FFFFFF", darkMode: "#e0e0e0", lightTailwind: "bg-white", darkTailwind: "bg-gray-300" },
-    { element: "Summary tab", state: "Background", lightMode: "#ff4081", darkMode: "#c51162", lightTailwind: "bg-pink-500", darkTailwind: "bg-pink-700" },
-    { element: "History tab", state: "Background", lightMode: "#2196f3", darkMode: "#0d47a1", lightTailwind: "bg-blue-500", darkTailwind: "bg-blue-800" },
-    { element: "Headers on summary tab", state: "Text", lightMode: "#337ab7", darkMode: "#64b5f6", lightTailwind: "bg-blue-700", darkTailwind: "bg-blue-400" },
-    { element: "Info on summary tab", state: "Text", lightMode: "#424242", darkMode: "#e0e0e0", lightTailwind: "bg-gray-800", darkTailwind: "bg-gray-300" },
-    { element: "Headers on history", state: "Text", lightMode: "#333", darkMode: "#e0e0e0", lightTailwind: "bg-gray-800", darkTailwind: "bg-gray-300" },
-    { element: "'Review' header tab", state: "Background", lightMode: "#efe4b08f", darkMode: "#8b7d3a8f", lightTailwind: "bg-yellow-200", darkTailwind: "bg-yellow-700" },
-    { element: "Incident tab (number)", state: "Background", lightMode: "#b9b9b926", darkMode: "#5a5a5a26", lightTailwind: "bg-gray-200", darkTailwind: "bg-gray-600" },
-    { element: "Incident tab (number)", state: "Border bottom", lightMode: "#568ab7", darkMode: "#2c5c8f", lightTailwind: "bg-blue-600", darkTailwind: "bg-blue-800" },
+    { element: "Test headers", state: "Text", lightMode: "#FFFFFF", darkMode: "#E0E0E0", lightTailwind: "bg-white", darkTailwind: "bg-gray-300" },
+    { element: "Summary tab", state: "Background", lightMode: "#FF4081", darkMode: "#C51162", lightTailwind: "bg-pink-500", darkTailwind: "bg-pink-700" },
+    { element: "History tab", state: "Background", lightMode: "#2196F3", darkMode: "#0D47A1", lightTailwind: "bg-blue-500", darkTailwind: "bg-blue-800" },
+    { element: "Headers on summary tab", state: "Text", lightMode: "#337AB7", darkMode: "#64B5F6", lightTailwind: "bg-blue-700", darkTailwind: "bg-blue-400" },
+    { element: "Info on summary tab", state: "Text", lightMode: "#424242", darkMode: "#E0E0E0", lightTailwind: "bg-gray-800", darkTailwind: "bg-gray-300" },
+    { element: "Headers on history", state: "Text", lightMode: "#333333", darkMode: "#E0E0E0", lightTailwind: "bg-gray-800", darkTailwind: "bg-gray-300" },
+    { element: "'Review' header tab", state: "Background", lightMode: "#EFE4B08F", darkMode: "#8B7D3A8F", lightTailwind: "bg-yellow-200", darkTailwind: "bg-yellow-700" },
+    { element: "Incident tab (number)", state: "Background", lightMode: "#B9B9B926", darkMode: "#5A5A5A26", lightTailwind: "bg-gray-200", darkTailwind: "bg-gray-600" },
+    { element: "Incident tab (number)", state: "Border bottom", lightMode: "#568AB7", darkMode: "#2C5C8F", lightTailwind: "bg-blue-600", darkTailwind: "bg-blue-800" },
     { element: "Incident tab (number)", state: "Text", lightMode: "#000000", darkMode: "#FFFFFF", lightTailwind: "bg-black", darkTailwind: "bg-white" },
-    { element: "Flow section header", state: "Background", lightMode: "#f7f8f9", darkMode: "#2c2c2c", lightTailwind: "bg-gray-100", darkTailwind: "bg-gray-800" },
+    { element: "Flow section header", state: "Background", lightMode: "#F7F8F9", darkMode: "#2C2C2C", lightTailwind: "bg-gray-100", darkTailwind: "bg-gray-800" },
 ];
 
 function initializeTables() {
