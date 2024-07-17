@@ -1,0 +1,79 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.color-cell {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* New toggle styles */
+.bg-gray-3 {
+    background-color: #D1D5DB;
+}
+
+.dark .bg-dark-2 {
+    background-color: #1F2937;
+}
+
+.bg-primary {
+    background-color: #3B82F6;
+}
+
+.dark .bg-dark-5 {
+    background-color: #374151;
+}
+
+.text-body-color {
+    color: #637381;
+}
+
+.dark .text-light {
+    color: #F3F4F6;
+}
+
+.peer:checked~.peer-checked\:translate-x-full {
+    --tw-translate-x: 100%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.peer:checked~.peer-checked\:bg-primary {
+    background-color: #3B82F6;
+}
+
+.peer:checked~div .active {
+    display: block;
+}
+
+.peer:checked~div .inactive {
+    display: none;
+}
+
+.peer:not(:checked)~div .active {
+    display: none;
+}
+
+.peer:not(:checked)~div .inactive {
+    display: block;
+}
+
+/* Accordion Styles */
+.hidden {
+    display: none;
+}
+
+.rotate-180 {
+    transform: rotate(180deg);
+}
+
+/* Smooth transition for arrow rotation */
+.transition-transform {
+    transition-property: transform;
+}
+
+.duration-200 {
+    transition-duration: 200ms;
+}
